@@ -259,10 +259,20 @@ Date:   Sat Apr 30 13:54:40 2022 +0800
 
 新增一個 all.css，並編輯index.html，插入該 CSS
 全部加入索引：git add .
-提交版本：git commit -m "插入 CSS"
+提交版本：git commit -m "插入其他新增檔案:scss.html"
 最後你可以再透過 git log 觀看是否數據庫裡面會有兩個版本。
 
 
+C:\Users\kimki\OneDrive\桌面\testgitt>git add .
+
+C:\Users\kimki\OneDrive\桌面\testgitt>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Memo4git01.js
+        new file:   all.css
+        new file:   newsty.scss
+        new file:   scss.html
 
 
 ////////////////////////////////////////////////////
